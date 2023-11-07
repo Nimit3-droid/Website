@@ -11,7 +11,10 @@
   "dependencies": {
     "next": "14.0.1",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-pdf": "^7.5.1",
+    "react-scroll-parallax": "^3.4.3",
+    "typewriter-effect": "^2.21.0"
   },
   "devDependencies": {
     "@types/node": "^20",

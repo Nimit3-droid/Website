@@ -17,6 +17,7 @@ const config: Config = {
         cursor: 'cursor .6s linear infinite alternate',
         type: 'type 1.8s ease-out .8s 1 normal both',
         'type-reverse': 'type 1.8s ease-out 0s infinite alternate-reverse both',
+        'wave': 'wave-animation 2.1s infinite',
       },
       keyframes: {
         type: {
@@ -29,8 +30,19 @@ const config: Config = {
           '55%, 60%': { width: '6ch' },
           '65%, 70%': { width: '7ch' },
           '75%, 80%': { width: '8ch' },
-          '85%, 90%': { width: '9ch' },
-          '95%': { width: '10ch' },
+          '85%, 100%': { width: '8ch' },
+          // '95%': { width: '8ch' },
+          // '100%': { width: '8ch' },
+        },
+        'wave-animation': {
+          '0%': { transform: 'rotate(0deg)' },
+          '10%': { transform: 'rotate(14deg)' },
+          '20%': { transform: 'rotate(-8deg)' },
+          '30%': { transform: 'rotate(14deg)' },
+          '40%': { transform: 'rotate(-4deg)' },
+          '50%': { transform: 'rotate(10deg)' },
+          '60%': { transform: 'rotate(0deg)' },
+          '100%': { transform: 'rotate(0deg)' },
         },
       },
 
